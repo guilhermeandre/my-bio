@@ -1,0 +1,68 @@
+body {
+    /* Hex digits: 0-9,a-f*/
+    /* Cascading on CSS: the last property wins*/
+    /*with no . is type*/
+    /*with . is class, more specific*/
+
+    /*background-color: lightgrey;*/
+    background: rgb(105,255,152);
+    background: linear-gradient(160deg, rgba(105,255,152,1) 0%, rgba(34,237,222,1) 100%);
+    color: #333;
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    font-family:  helvetica, arial, sans-serif;
+    /*background-image: url('');*/
+    
+ }
+
+a:visited {
+    color: teal;
+}
+
+ .highlight{
+     background-color: lightsalmon;
+     text-align: left;
+ }
+
+ .main-heading{
+     text-align: left;
+     font-weight: 400; /* normal (400) bold (700)*/
+     font-style: italic;
+     background-color: lightslategray;
+
+ }
+
+ .section{
+    /*background-color: indigo;*/
+    color: lavender;
+
+ }
+
+ .article {
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    /*background-color: fuchsia;*/
+
+ }
+
+ .paragraphs{
+     background-color: limegreen    ;
+ }
+
+ .lists
+ {
+     background-color: aquamarine;
+     color: red;
+     font-weight: bolder;
+ }
+
+ .nav{
+     background-color: mediumaquamarine;
+ }
+ /*HTML: HyperText Markup Language*/
+ /*CSS: Cascading Style Sheets*/
+ /*JS: JavaScript*/
